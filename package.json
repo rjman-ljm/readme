@@ -1,12 +1,12 @@
 {
-	"name": "@appnest/readme",
-	"version": "1.2.7",
+	"name": "@rjman/readme",
+	"version": "1.0.0",
 	"description": "Automatically generate a beautiful best-practice README file based on the contents of your repository",
 	"license": "MIT",
 	"module": "index.esm.js",
 	"main": "index.cjs.js",
 	"types": "index.d.ts",
-	"author": "Appnest",
+	"author": "rjman-ljm",
 	"scripts": {
 		"prebuild": "node prebuild.js",
 		"b:lib": "rollup -c && rollup -c=rollup-cli.config.js",
@@ -25,12 +25,12 @@
 		"ncu": "ncu -u -a && npm update && npm install"
 	},
 	"bugs": {
-		"url": "https://github.com/andreasbm/readme/issues"
+		"url": "https://github.com/rjman-ljm/readme//issues"
 	},
-	"homepage": "https://github.com/andreasbm/readme#readme",
+	"homepage": "https://github.com/rjman-ljm/readme/#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/andreasbm/readme.git"
+		"url": "git+https://github.com/rjman-ljm/readme/.git"
 	},
 	"keywords": [
 		"opensource",
@@ -42,8 +42,7 @@
 		"maintaining",
 		"generator"
 	],
-	"contributors": [
-		{
+	"contributors": [{
 			"name": "Andreas Mehlsen",
 			"url": "https://twitter.com/andreasmehlsen",
 			"img": "https://avatars1.githubusercontent.com/u/6267397?s=460&v=4",
@@ -54,7 +53,7 @@
 		{
 			"name": "You?",
 			"img": "https://joeschmoe.io/api/v1/random",
-			"url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
+			"url": "https://github.com/rjman-ljm/readme//blob/master/CONTRIBUTING.md"
 		}
 	],
 	"bin": {

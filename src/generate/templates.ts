@@ -41,7 +41,7 @@ export function lineTemplate ({config}: LineTemplateArgs) {
 	if (isValidURL(line)) {
 		url = line;
 	} else {
-		url = `https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/${line}.png`;
+		url = `https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/${line}.png`;
 	}
 
 	return `![-----------------------------------------------------](${url})`;

@@ -1,14 +1,14 @@
 <!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/logo-shadow.png" alt="Logo" width="150" height="150" />
+  <img src="https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/logo-shadow.png" alt="Logo" width="150" height="150" />
 </p>
 <h1 align="center">@appnest/readme</h1>
 <p align="center">
 		<a href="https://npmcharts.com/compare/@appnest/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@appnest/readme.svg" height="20"/></a>
 <a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
-<a href="https://david-dm.org/andreasbm/readme"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/readme.svg" height="20"/></a>
-<a href="https://github.com/andreasbm/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/readme.svg" height="20"/></a>
+<a href="https://david-dm.org/rjman-ljm/readme/"><img alt="Dependencies" src="https://img.shields.io/david/rjman-ljm/readme/.svg" height="20"/></a>
+<a href="https://github.com/rjman-ljm/readme//graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/rjman-ljm/readme/.svg" height="20"/></a>
 <a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20"/></a>
-<a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
+<a href="https://github.com/rjman-ljm/readme//graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
 	</p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/demo.gif" alt="Demo" width="800" />
+  <img src="https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/demo.gif" alt="Demo" width="800" />
 </p>
 
 * **Simple**: Extremely simple to use - so simple that it almost feels like magic!
@@ -31,7 +31,7 @@
 <summary>📖 Table of Contents</summary>
 <br />
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#table-of-contents)
 
 ## ➤ Table of Contents
 
@@ -79,7 +79,7 @@
 </details>
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#installation)
 
 ## ➤ Installation
 
@@ -89,7 +89,7 @@ npm install @appnest/readme -D
 
 If you don't want to install anything you can use the `npx @appnest/readme generate` command instead.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#getting-started-quick)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#getting-started-quick)
 
 ## ➤ Getting Started (quick)
 
@@ -101,7 +101,7 @@ This getting started guide is super quick! Follow these two steps and you will h
 That's it! Check out your freshly generated `README.md` file and enjoy the fruits of what you just did.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#getting-started-slower)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#getting-started-slower)
 
 ## ➤ Getting Started (slower)
 
@@ -171,7 +171,7 @@ To configure this library you'll need to create a `blueprint.json` file. This fi
 
 Great. Now that we have the basics covered, let's continue and see how you can use templates!
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#templates)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#templates)
 
 ## ➤ Templates
 
@@ -198,7 +198,7 @@ That's cool. Let's go through some of the other built-in templates you might wan
 The logo template adds a logo to your readme and looks like this:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/logo-shadow.png" alt="Logo" width="150" height="150" />
+  <img src="https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/logo-shadow.png" alt="Logo" width="150" height="150" />
 </p>
 
 Use the placeholder `{{ template:logo }}` to stamp it. You will need to add the `logo` field to your `blueprint.json`. The logo field requires an `src` field. Optionally you can provide values for `width`, `height` and `alt`. Below is an example on how to add the data for the logo template.
@@ -206,7 +206,7 @@ Use the placeholder `{{ template:logo }}` to stamp it. You will need to add the 
 ```json
 {
   "logo": {
-    "src": "https://raw.githubusercontent.com/andreasbm/readme/master/assets/logo-shadow.png",
+    "src": "https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/logo-shadow.png",
     "width": "150"
   }
 }
@@ -219,10 +219,10 @@ The badges template adds badges to your readme and looks like this:
 <p align="center">
 		<a href="https://npmcharts.com/compare/@appnest/readme?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@appnest/readme.svg" height="20"/></a>
 <a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
-<a href="https://david-dm.org/andreasbm/readme"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/readme.svg" height="20"/></a>
-<a href="https://github.com/andreasbm/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/readme.svg" height="20"/></a>
+<a href="https://david-dm.org/rjman-ljm/readme/"><img alt="Dependencies" src="https://img.shields.io/david/rjman-ljm/readme/.svg" height="20"/></a>
+<a href="https://github.com/rjman-ljm/readme//graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/rjman-ljm/readme/.svg" height="20"/></a>
 <a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20"/></a>
-<a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
+<a href="https://github.com/rjman-ljm/readme//graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
 	</p>
 
 
@@ -231,7 +231,7 @@ Use the `{{ template:badges }}` placeholder to stamp it. You will need to add th
 ```json
 {
   "ids": {
-    "github": "andreasbm/readme",
+    "github": "rjman-ljm/readme/",
     "npm": "@appnest/readme"
   },
   "badges": [
@@ -281,7 +281,7 @@ Use the `{{ template:description }}` placeholder to stamp it. To use this templa
 The table of contents template adds a table of contents and looks like this:
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#table-of-contents)
 
 ## ➤ Table of Contents
 
@@ -335,14 +335,14 @@ Use the `{{ template:toc }}` placeholder to stamp it. It has been scientifically
 The contributors template adds the list of contributors and looks like this:
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#contributors)
 
 ## ➤ Contributors
 	
 
-| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/rjman-ljm/readme//blob/master/CONTRIBUTING.md) |
 |:--------------------------------------------------:|:--------------------------------------------------:|
-| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [You?](https://github.com/rjman-ljm/readme//blob/master/CONTRIBUTING.md) |
 | 🔥                                               |                                                  |
 
 
@@ -363,7 +363,7 @@ Use the `{{ template:contributors }}` placeholder to stamp it. Let's sa To use t
     {
       "name": "You?",
       "img": "https://joeschmoe.io/api/v1/random",
-      "url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
+      "url": "https://github.com/rjman-ljm/readme//blob/master/CONTRIBUTING.md"
     }
   ]
 }
@@ -376,7 +376,7 @@ Take note of the `info` array. That one is really exciting! Here you can add lin
 The license template adds a license section and looks like this:
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#license)
 
 ## ➤ License
 	
@@ -392,13 +392,13 @@ Use the `{{ template:license }}` placeholder to stamp it. To use this template y
 
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#load-markdown-files)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#load-markdown-files)
 
 ## ➤ Load markdown files
 
 What? You heard right. You can split the contents of your readme into multiple different files to make your life easier. Let's say you have a file called `my-section.md`. To stamp it you'll need to add `{{ load:my-section.md }}`.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#automatic-documentation)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#automatic-documentation)
 
 ## ➤ Automatic documentation
 
@@ -440,7 +440,7 @@ customElements.define("my-button", MyButton);
 Then you can get automatic documentation for the web component by simply writing `{{ doc:my-button.js }}` which will result in the following content.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#my-button)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#my-button)
 
 ## ➤ my-button
 
@@ -462,7 +462,7 @@ Button used for clicking!
 
 If you want to learn more about how the documentation is generated, check out [`web-component-analyzer`](https://github.com/runem/web-component-analyzer).
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#a-bit-about-this-readme)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#a-bit-about-this-readme)
 
 ## ➤ A bit about this readme
 
@@ -492,7 +492,7 @@ By now you are probably curious to know how this README file was generated? It w
 
 It really couldn't be more simple that this.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#custom-templates)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#custom-templates)
 
 ## ➤ Custom templates
 
@@ -515,7 +515,7 @@ Run `npm install @appnest/readme' to install this library!
 
 Be creative! You can for example add a template for code-snippets or [words you keep spelling wrong](https://en.oxforddictionaries.com/spelling/common-misspellings).
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#advanced)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#advanced)
 
 ## ➤ Advanced!
 
@@ -609,21 +609,21 @@ If you want to change the color of the lines above headers you can change the `l
 
 The following is the dark variant of the line.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/dark.png)
 
 Yeah! Dark mode on your `README.md` is awesome indeed. You have other options besides dark mode. Here's all the line styles you can choose from.
 
-* "aqua" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
-* "cloudy" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
-* "colored" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
-* "cut" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)
-* "dark" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png)
-* "fire" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png)
-* "grass" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
-* "rainbow" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-* "solar" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png)
-* "vintage" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/vintage.png)
-* "water" ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)
+* "aqua" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/aqua.png)
+* "cloudy" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/cloudy.png)
+* "colored" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)
+* "cut" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/cut.png)
+* "dark" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/dark.png)
+* "fire" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/fire.png)
+* "grass" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/grass.png)
+* "rainbow" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/rainbow.png)
+* "solar" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/solar.png)
+* "vintage" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/vintage.png)
+* "water" ![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/water.png)
 
 If you want your own line design you can give the `line` field an url to an image instead. It is recommended that this image is 900px in width. If you prefer no line at all you can give the `line` field the string "none".
 
@@ -642,7 +642,7 @@ If you want to change the prefix in front of the heading you can change the `hea
 
 If you want some inspiration for symbols you can put infront of the headings you can check out [this](https://unicodes.smpc.io/) website.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#featured-readmes)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#featured-readmes)
 
 ## ➤ Featured README's
 
@@ -659,14 +659,14 @@ If you use this generator for one of your projects I would love to hear about it
 As inspiration for the layout of the generated README files I initially found inspiration from [terkelg's brilliant repository called prompts](https://github.com/terkelg/prompts) - a prime example on how every README file should look! I therefore wanted to mention him here even though he doesn't use this README generator. If you want to see an example of a brilliant README file you should definitely check his repository out.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#future-work)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#future-work)
 
 ## ➤ Future work
 
 That's it for now! Lot's of exiting features a going to be added in the future. If you stumble upon an issue or have a feature request you are very welcome to open a Github issue or pull request. Have a great day!
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#faq)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#faq)
 
 ## ➤ FAQ
 
@@ -687,18 +687,18 @@ No problem at all! Your first step can be to rename your `README.md` to `bluepri
 There are lot's of ways to support me! I would be so happy if you gave this repository a star, tweeted about it or told your friends about this little corner of the Internet ❤️
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#contributors)
 
 ## ➤ Contributors
 	
 
-| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/rjman-ljm/readme//blob/master/CONTRIBUTING.md) |
 |:--------------------------------------------------:|:--------------------------------------------------:|
-| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [You?](https://github.com/rjman-ljm/readme//blob/master/CONTRIBUTING.md) |
 | 🔥                                               |                                                  |
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/rjman-ljm/readme//master/assets/lines/colored.png)](#license)
 
 ## ➤ License
 	

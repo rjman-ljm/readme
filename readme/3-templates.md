@@ -116,7 +116,7 @@ Use the `{{ template:contributors }}` placeholder to stamp it. Let's sa To use t
     {
       "name": "You?",
       "img": "https://joeschmoe.io/api/v1/random",
-      "url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
+      "url": "https://github.com/rjman-ljm/readme//blob/master/CONTRIBUTING.md"
     }
   ]
 }
